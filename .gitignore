@@ -1,0 +1,3 @@
+# Project exclude paths
+/event-gateway-proxy/target/
+/event-timing-tasks/target/
