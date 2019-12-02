@@ -23,12 +23,12 @@ import java.util.Date;
  */
 public class EventGatewayProxy {
     public static void main(String[] args) throws Exception {
-        args = new String[]{
+       /* args = new String[]{
                 "--mysql-addr","127.0.0.1",
                 "--etcd-addr", "http://192.168.139.245:2379",
                 "--nats-addr", "nats://192.168.139.245:4222",
                 "--bind-address", "192.168.139.208",
-        };
+        };*/
         ApplicationInjector applicationInjector = ApplicationInjector.initInjector(
                 new EnvironmentModule(args),
                 new DatabaseModule(),
